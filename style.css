@@ -2,12 +2,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   background: linear-gradient(135deg, #ffd6e8, #ffffff);
-  min-height: 100vh;
-  margin: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+
+  display: block;   /* ✅ REMOVE flex */
 }
 
 /* ===== Main card ===== */
@@ -92,5 +91,6 @@ button:active {
     transform: scale(1);
   }
 }
+
 
 
