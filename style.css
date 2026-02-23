@@ -9,6 +9,12 @@ body {
   display: block;   /* ✅ REMOVE flex */
 }
 
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 /* ===== Main card ===== */
 .card {
   background: white;
@@ -91,6 +97,7 @@ button:active {
     transform: scale(1);
   }
 }
+
 
 
 
