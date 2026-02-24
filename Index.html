@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cycle Calculator 😩</title>
-	<Link rel="Stylesheet" href= "style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="card">
   <h2>Cycle Calculator 😩</h2>
 
-	<div class="field">
-  <label>Last Period Date:</label><br>
-  <input type="date" id="lastdate"><br><br>
-	</div>
+  <div class="field">
+    <label>Last Period Date:</label><br>
+    <input type="date" id="lastdate"><br><br>
+  </div>
 
-	<div class="field">
-  <label>Cycle Length (days):</label><br>
-  <input type="number" id="cycleLength"><br><br>
-	</div>
+  <div class="field">
+    <label>Cycle Length (days):</label><br>
+    <input type="number" id="cycleLength" min="1"><br><br>
+  </div>
 
   <button onclick="calculatePeriod()">Calculate</button>
 
   <p id="result"></p>
+  <p id="savedInfo"></p>
 </div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
